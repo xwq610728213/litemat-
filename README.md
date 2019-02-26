@@ -7,8 +7,7 @@ Aiming to test our system in extreme situations, i.e. manipulating a large numbe
 we created some datasets based on LUBM that only contain the assertions of the ***lubm:subOrganisationOf*** transitive property.
 Some parameters can be set while using this generator. An example is offered below to run the generator with these parameters.
 
-<pre><code>
-#!/bin/bash
+<pre><code>#!/bin/bash
 scala creatChain.scala --num-univ 1000 --max-depart-num 25 --min-depart-num 20 --max-depth 5 --min-depth 2 --max-branches-num 20 --min-branches-num 10 --path /Volumes/UNTITLED/xchain/
 </code></pre>
 
